@@ -277,11 +277,8 @@ nav ul {
     margin: 0;
     padding: 10px;
     display: flex;
-    justify-content: space-between; /* This will evenly distribute the items horizontally */
-    align-items: center; /* This will vertically center align the items */
+    justify-content: flex-end;
     flex-flow: row wrap;
-    -webkit-align-items: center;
-    align-items: center;
 }
 
 /* styles for li items makes the spacing/alignment work on the menu */
@@ -514,7 +511,7 @@ No media query for `xs` since this is the default */
         font-weight: 400;
         font-size: 18px;
         line-height: 18px;
-        text-align: left;
+        text-align: center;
         margin-left: 0; 
         padding-left: 0;  /* If you want to ensure it's against the left edge, set padding-left to 0 */
     }
@@ -530,10 +527,9 @@ No media query for `xs` since this is the default */
         margin: 0;
         padding: 10px;
         display: flex;
-        justify-content: left; /* This will evenly distribute the items horizontally */
-        align-items: right; /* This will vertically center align the items */
-        flex-flow: row nowrap; /* Prevents items from wrapping onto the next line */
-        -webkit-align-items: center;
+        justify-content: center; /* This will evenly distribute the items horizontally */
+        flex-flow: row; /* Prevents items from wrapping onto the next line */
+        flex-wrap: wrap;
     }
 
     li.item a {
