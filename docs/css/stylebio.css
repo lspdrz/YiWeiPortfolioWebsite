@@ -16,6 +16,7 @@ body {
   background-color:#2B6BE6;
   display: flex;
   justify-content: center;
+  min-height: 100%;
 }
 
 nav {
@@ -31,6 +32,10 @@ footer {
 /*MAIN ELEMENTS*/
 /* Ensure the container uses Flexbox and items are in a row */
 
+.content {
+  display: flex;
+  justify-content: center;
+}
 .box-container {
   display: flex;
   flex-wrap: wrap;
