@@ -84,6 +84,11 @@ max-width: 100%;
 height: auto;
 padding-bottom: 0.8em;
 margin-top: 3em;
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  }
 }
 
 .heading {
@@ -187,6 +192,11 @@ No media query for `xs` since this is the default */
     width: 90%;
     justify-content: center;
 }
+
+  .field input {
+    margin-top: 1rem;
+    min-width: 300px;
+  }
 }
 
 
